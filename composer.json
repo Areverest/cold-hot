@@ -1,12 +1,14 @@
 {
-    "name": "sifon/cold-hot",
+    "name": "arever/cold-hot",
     "require": {
-        "wp-cli/php-cli-tools": "^0.11.13"
+        "wp-cli/php-cli-tools": "^0.11.13",
+        "gabordemooij/redbean": "dev-master"
     },
     "type": "project",
     "authors": [
         {
-            "name": "arever"            
+            "name": "arever",
+            "email": "arever1@mail.ru"
         }
     ],
     "bin": [
@@ -15,7 +17,8 @@
     "autoload":{
         "files":[
             "src/Controller.php",
-            "src/View.php"
+            "src/View.php",
+            "src/Model.php"
         ]
     },
     "require-dev": {
